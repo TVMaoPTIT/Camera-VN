@@ -1,0 +1,12 @@
+CGI là gì
+Giao diện cổng chung (CGI) là một tập hợp các giao thức tiêu chuẩn để xác định cách thức trao đổi dữ liệu giữa máy chủ web và các tập lệnh tùy chỉnh.
+
+Hãy để chúng tôi nghĩ về kịch bản này:
+
+Khi một yêu cầu siêu liên kết đến máy chủ web. máy chủ sẽ phân tích cú pháp URL và yêu cầu (ví dụ: tên tệp).
+Máy chủ sẽ xem qua tệp tương ứng và trả lại nội dung tệp cho máy khách yêu cầu.
+Ứng dụng khách yêu cầu hiển thị nội dung mà máy chủ web trả về.
+Các bước trên là quy trình cho một trang web tĩnh. Tuy nhiên, máy chủ có thể được định cấu hình để tệp được yêu cầu trong một thư mục được chỉ định không bị gửi lại, thay vào đó nó được thực thi như một chương trình. và bất kỳ kết quả nào của chương trình sẽ được gửi lại cho trình duyệt khách. chức năng này được gọi là Giao diện cổng chung. Giao diện cổng chung đã đặt nền tảng cho các trang web động.
+
+Sơ đồ kiến ​​trúc giao diện cổng chung
+
